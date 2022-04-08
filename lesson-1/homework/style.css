@@ -1,0 +1,38 @@
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  width: 600px;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+  border: 1px solid grey;
+  color: brown;
+  font-weight: 400;
+}
+/* границы ячеек тела таблицы */
+td {
+  border: 1px solid grey;
+  text-align: center;
+}
+
+tr {
+  width: 100%;
+}
+
+.colorBlack {
+  color: black;
+  width: 80px;
+}
+
+.textAlign {
+  text-align: left;
+}
+
+.teamName {
+  text-align: left;
+}
+
+.rowColore {
+  background-color: lightgrey;
+}
